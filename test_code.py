@@ -1,14 +1,14 @@
 import os,sys
 import random
 import pytest
-from code_5 import get_melanoma_mortality_information_by_state
-from code_5 import get_asthma_mortality_information_by_state
-from code_5 import get_chronic_liver_mortality_by_state
-from code_5 import get_missing_values_count_by_state
+from assignment import get_melanoma_mortality_information_by_state
+from assignment import get_asthma_mortality_information_by_state
+from assignment import get_chronic_liver_mortality_by_state
+from assignment import get_missing_values_count_by_state
 
 def check_if_file_exists():
     try:
-        exists = os.path.exists("code_5.py")
+        exists = os.path.exists("assignment.py")
         assert exists == True
     except:
         sys.exit()

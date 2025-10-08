@@ -2,6 +2,8 @@
 
 ## Instructions
 
+The csv file for this assignment is too large to upload to GitHub. In order to complete the assignment, download the US_chronic_diseases.csv file from Blackboard, then copy it into the same folder as your assignment.py file.
+
 In this coding assignment, your will practice data filtering and retrival from a CSV file using the Python module Pandas. To complete the assignment, your program must have the following functions:
 
 * `get_melanoma_mortality_information_by_state`
@@ -31,11 +33,10 @@ In this coding assignment, your will practice data filtering and retrival from a
 
 * The state_code is stored under the column **'LocationAbbr'**
 * The mortality rate is stored under the column **'DataValueAlt'**
-* Program your interface under the if statement: `if __name__ == "__main__":`.
+* Test your functions under the if statement: `if __name__ == "__main__":`.
 * Use the built-in function round() to round decimal numbers. For example: `round(0.5556,2)` should return **0.56**
 
 ## Copyright disclosure
 
-* The file `US_chronic_diseases.csv` records the "U.S. Chronic Disease Indicators (CDI)" and was obtained from Data.Gov [https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi]. You can download it from the original source and if incorporated to the code repository rename the file as `US_chronic_diseases.csv`
-* The `US_chronic_diseases.csv`is also available in Blackboard. 
-* **DO NOT** include `US_chronic_diseases.csv` in your code repository because the GitHub does not accept files bigger than 100MB
+* The file `US_chronic_diseases.csv` records the "U.S. Chronic Disease Indicators (CDI)" and was obtained from Data.Gov [https://catalog.data.gov/dataset/u-s-chronic-disease-indicators].
+* The `US_chronic_diseases.csv`is available in Blackboard.
